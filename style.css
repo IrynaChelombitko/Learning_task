@@ -1,1 +1,116 @@
-body { font-family: Arial, sans-serif; }
+/* Загальні стилі */
+body {
+    font-family: arial, sans-serif;
+    background-color: #fffdef;
+  }
+  
+  h1 {
+    color: blue;
+    font-size: 50px;
+    padding: 20px 0;
+    cursor: pointer;
+  }
+  
+  h1:hover {
+    color: coral;
+  }
+  
+  /* Стилі для погодного додатка */
+  .weather-app {
+    max-width: 600px;
+    margin: 30px auto;
+  }
+  
+  .container-weather-app {
+    padding: 20px;
+    border: 2px solid #dadde1;
+    border-radius: 5px;
+  }
+  
+  /* Стилі для іконок */
+  .icons {
+    color: coral;
+    font-size: 20px;
+    transition: color 0.3s, font-size 0.3s;
+  }
+  
+  .icons:hover {
+    color: mediumblue;
+    font-size: 25px;
+  }
+  
+  /* Стилі для пошуку */
+  .search-form input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .search-form input[type="submit"], 
+  .search-form button {
+    width: 15%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Стилі для відображення погоди */
+  .now {
+    margin: 0 0 100px 0;
+  }
+  
+  .now strong {
+    color: rgb(33, 33, 33);
+    font-size: 64px;
+    line-height: 1;
+    font-weight: 400;
+  }
+  
+  .temperatureToday {
+    color: coral;
+    font-size: 50px;
+    cursor: pointer;
+  }
+  
+  .temperatureToday .units a {
+    color: rgb(33, 33, 33);
+    text-decoration: none;
+  }
+  
+  .temperatureToday .units a:hover {
+    text-decoration: underline;
+  }
+  
+  .temperatureToday .active {
+    cursor: default;
+  }
+  
+  /* Стилі для прогнозу погоди */
+  .weather-forecast {
+    margin-top: 20px;
+    text-align: center;
+    color: #14113c;
+  }
+  
+  .weather-forecast-date {
+    font-size: 16px;
+    opacity: 0.5;
+  }
+  
+  .weather-forecast-temperatures {
+    font-size: 13px;
+  }
+  
+  /* Загальні стилі для кнопок та посилань */
+  a, button {
+    transition: color 0.3s;
+  }
+  
+  a:hover, button:hover {
+    color: coral;
+  }
+
+  
